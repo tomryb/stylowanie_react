@@ -1,0 +1,22 @@
+.header {
+  background-color: red;
+  &__logo {
+    color: blue;
+  }
+  &__nav {
+    float: right;
+  }
+  &__navElement {
+    color: yellow;
+    font-weight: bold;
+    &--red {
+      color: red;
+    }
+  }
+  .container {
+    color: green;
+  }
+  .container {
+    color: pink;
+  }
+}

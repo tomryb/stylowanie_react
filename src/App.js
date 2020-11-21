@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import InlineBackgroundColor from './InlineBackgroundColor'
-
+import InlineBackgroundColor from './InlineBackgroundColor';
+import CssExampleElement from './components/zadanie2/CssExampleElement';
+import ScssExampleElement from './components/zadanie3/ScssExampleElement';
+import BEMExampleHeader from './components/zadanie4/BEMExampleHeader';
 
 const ContainerStyle = {
   color: "red",
@@ -19,6 +21,9 @@ function App() {
       }}>Nagłówek</h1>
       <button onClick={handleClick}>Zmień kolor</button>
       <InlineBackgroundColor></InlineBackgroundColor>
+      <CssExampleElement></CssExampleElement>
+      <ScssExampleElement></ScssExampleElement>
+      <BEMExampleHeader></BEMExampleHeader>
     </div>
   );
 }
