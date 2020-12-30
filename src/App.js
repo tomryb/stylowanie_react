@@ -4,6 +4,7 @@ import CssExampleElement from './components/zadanie2/CssExampleElement';
 import ScssExampleElement from './components/zadanie3/ScssExampleElement';
 import BEMExampleHeader from './components/zadanie4/BEMExampleHeader';
 import ClassnameExample from './components/zadanie5/ClassnameExample';
+import StyledComponents from './components/zadanie6/StyledComponents';
 
 const ContainerStyle = {
   color: "red",
@@ -32,6 +33,7 @@ function App() {
       <ScssExampleElement></ScssExampleElement>
       <BEMExampleHeader></BEMExampleHeader>
       <ClassnameExample></ClassnameExample>
+      <StyledComponents></StyledComponents>
     </div>
   );
 }
