@@ -3,6 +3,7 @@ import InlineBackgroundColor from './components/zadanie1/InlineBackgroundColor';
 import CssExampleElement from './components/zadanie2/CssExampleElement';
 import ScssExampleElement from './components/zadanie3/ScssExampleElement';
 import BEMExampleHeader from './components/zadanie4/BEMExampleHeader';
+import ClassnameExample from './components/zadanie5/ClassnameExample';
 
 const ContainerStyle = {
   color: "red",
@@ -30,6 +31,7 @@ function App() {
       <CssExampleElement></CssExampleElement>
       <ScssExampleElement></ScssExampleElement>
       <BEMExampleHeader></BEMExampleHeader>
+      <ClassnameExample></ClassnameExample>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.scssExampleElementContainer {
+  background-color: red;
+}
+
+.scssExampleElementContainer {
+  background-color: blue;
+  font-size: 28px;
+
+  &Active {
+    background-color: orange;
+  }
+}
+
+.buttonClass {
+  background-color: purple;
+  &:hover {
+    background-color: aqua
+  }
+}
+
+.container {
+  background-color: brown;
+}
