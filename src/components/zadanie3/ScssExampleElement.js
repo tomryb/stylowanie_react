@@ -6,10 +6,10 @@ function ScssExampleElement() {
   const handleClick = () => setActive(!active)
 
   return (
-    <div className={active ? 'scssExampleElementContainer' : 'scssExampleElementContainerActive'}>zadanie2
+    <div className={active ? 'scssExampleElementContainer' : 'scssExampleElementContainerActive'}>zadanie3
       <button className={'buttonClass'}
         onClick={handleClick}
-      >zmień kolor typie</button>
+      >znowu zmień kolor typie</button>
     </div>
   );
 }
