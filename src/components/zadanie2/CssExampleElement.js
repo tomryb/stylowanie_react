@@ -16,8 +16,7 @@ function CssExampleElement() {
 
   return (
     <div className={active ? 'cssExampleElementContainer' : 'cssExampleElementContainerActive'}
-      onMouseEnter={handleHoverOn}
-      onMouseLeave={handleHoverOff}>zadanie2
+    >zadanie2
       <button style={buttonBackgroundColor}
         onClick={handleClick}
         onMouseEnter={handleHoverOn}
